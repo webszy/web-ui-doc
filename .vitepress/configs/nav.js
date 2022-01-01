@@ -2,7 +2,7 @@ const { getPath } = require('./utils')
 
 module.exports = [
   { text: '介绍', link: '/introduction/' },
-  { text: '使用', link: '/components/Loading', activeMatch: getPath('^/components/') },
+  { text: '使用', link: '/components/', activeMatch: getPath('^/components/') },
   {
     text: '更新日志',
     link:

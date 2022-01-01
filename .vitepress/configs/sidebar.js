@@ -9,7 +9,7 @@ function getComponentsSidebar() {
   return [
     {
       text: '指南',
-      link: '/components/index',
+      link: '/components/',
     },
     {
       text: '组件',
