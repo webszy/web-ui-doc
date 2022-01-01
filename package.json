@@ -1,0 +1,21 @@
+{
+  "name": "web-ui-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:serve": "vitepress serve"
+  },
+  "dependencies": {
+    "markdown-it-emoji": "^2.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "vitepress": "^0.20.10"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
